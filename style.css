@@ -1,0 +1,42 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: 'Courier New', Courier, monospace; */
+    background-color: beige;
+    border: 1px solid darkgreen;
+    padding: 10%;
+}
+
+.h1-cust{
+    text-align: center;
+    text-shadow: 10px 10px 4px black ;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: darkgreen;
+    
+}
+.h2-cust{
+    text-align: left;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-decoration-line: underline;
+    text-decoration-color: darkgreen;
+}
+.h3-cust{
+    text-align: right;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-indent: 90%;
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
+
+}
+.tab{
+    color: darkgreen;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    text-anchor: middle;
+    line-height: 30px;
+
+}
+
